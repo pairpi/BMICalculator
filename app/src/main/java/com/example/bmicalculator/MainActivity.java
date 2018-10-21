@@ -75,5 +75,6 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG,"ความสูงหารเมตร = " + String.valueOf(height));
         float bmi = weightInKg / (height * height);
         return bmi;
+        finish();
     }
 }
